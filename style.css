@@ -1,0 +1,196 @@
+
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0;
+    font-family: 'Pathway Gothic One', sans-serif;
+}
+
+body {
+    background: url(images/fantasy-ge7d1ac0a0_1920.jpg) 
+    no-repeat center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+}
+
+img {
+    max-width: 100%;
+}
+
+
+ul {
+    list-style-type: none;
+}
+.container {
+    max-width: 900px;
+    margin: 0px auto;
+    padding: 0px 30px;
+}
+
+.container div {
+    width: 300px;
+}
+
+.navbar {
+    background-color: rgba(168, 161, 129, 0.5);
+    color: #fff;
+    height: 60px;
+}
+
+.navbar .logo {
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+.navbar a:hover{
+    color: rgb(10, 54, 136);
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    flex-wrap: wrap;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar ul li {
+    margin-left: 20px;
+}
+
+.header {
+    background-color: rgba(168, 161, 129, 0.5);
+    min-height: 200px;
+    color: #fff;
+}
+
+.header h2 {
+    font-weight: bold;
+}
+
+.header img {
+    width: 400px;
+    height: 180px;
+}
+
+.header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.header .container img {
+    width:285px;
+    height: 300px
+}
+
+
+.header .container button {
+    cursor: pointer;
+    width: 80px;
+    background-color: #66666567;
+    border: #fff solid 2px;
+    color: #fff;
+}
+
+.boxes .container {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.box {
+    flex: 1;
+    background-color: #66666567;
+    color: #fff;
+    margin: 20px 10px;
+    padding: 15px 20px;
+    border-radius: 10px;
+    text-align: center;
+    
+}
+
+.box img {
+    height: 250px;
+}
+
+.quote .container {
+    background-color: #6666658f;
+    padding: 80px 40px;
+    text-align: center;
+    color: #fff;
+    font-size: larger;
+}
+
+.action .container {
+    display: flex;
+    background-color: #66666567;
+    margin: 80px;
+    height: 80px;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+    font-size: larger;
+    
+}
+
+.action .container button {
+    margin-left: 250px;
+    background-color: #66666567;
+    color: #fff;
+    width: 80px;
+    border: white solid 2px;
+    cursor: pointer;
+
+}
+
+.footer {
+    background-color: #66666567;
+    padding: 15px;
+    text-align: center;
+    color: #fff;
+}
+ 
+@media(max-width: 768px){
+     .header .container {
+         flex-direction: column;
+         text-align: center;
+         padding-top: 20px;
+
+     }
+
+     .boxes .container  {
+         flex-direction: column;
+         align-items: center;
+         
+
+     }
+     .quote .container {
+        flex-direction: column;
+        text-align: center;
+
+     }
+
+     .action .container {
+        flex-direction: column;
+        text-align: center;
+
+     }
+     
+ }
